@@ -1,4 +1,9 @@
+function soma(n1, n2)
+{return n1 + n2;}
 
+console.log(soma(5 , 10))
+
+alert(soma(5 , 10));
 
 /*var d = new Date(); //visualizar data
 alert(d);
