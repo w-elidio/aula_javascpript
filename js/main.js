@@ -1,9 +1,31 @@
-function soma(n1, n2)
+function clicou(){
+    //alert("Obrigado por clicar");
+    document.getElementById('agradecimento').innerHTML="<b>Obrigado por clicar</b>"; // adiciona o paragrafo quando clicado o botão. <b> = Negrito.
+}
+
+function redirecionar(){
+    window.open("https://www.linkedin.com/feed/");
+}
+
+
+/*function validarIdade(idade)
+{ var validar;
+if (idade>=18)
+{validar = true}
+else
+{validar= false}
+return validar
+}
+var idade= prompt("Qual a sua idade?")
+console.log(validarIdade(idade));*/
+
+
+/*function soma(n1, n2)
 {return n1 + n2;}
 
 console.log(soma(5 , 10))
+alert(soma(5 , 10));*/
 
-alert(soma(5 , 10));
 
 /*var d = new Date(); //visualizar data
 alert(d);
@@ -16,10 +38,12 @@ for(count = 0; count <= 5; count++){
     console.log(count)
 };*/
 
+
 /*var count= 0;
 while (count < 5)// contar enquanto for menor que 5(0,1,2,3,4)
 { console.log(count);
 count++;}*/
+
 
 /*var idade = prompt("Qual sua idade?")// o browser exibe uma pergunta para o usuario e o que ele responder será gravado na variavel idade
 if(idade >= 18)
